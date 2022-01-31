@@ -8,7 +8,7 @@ submitButton.addEventListener('click', (event) => {
   const username = usernameInput.value;
   const password = passwordInput.value;
 
-  // console.log(`username: ${username} .. password: ${password}`);
+  console.log(`username: ${username} .. password: ${password}`);
 
   const options = {
     method: 'POST',
