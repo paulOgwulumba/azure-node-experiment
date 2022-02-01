@@ -18,7 +18,7 @@ submitButton.addEventListener('click', (event) => {
     body: JSON.stringify({name: username, password}),
   };
 
-  fetch('http://cfcfnapppwsh.azurewebsites.net/api/testHTTP', options)
+  fetch('https://cfcfnapppwsh.azurewebsites.net/api/testHTTP', options)
     .then((response) => response.json())
     .then((data) => {
       const {name, password} = JSON.parse(data);

@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/84712bd9-d8a5-446f-984d-60a96c56f50b/resourceGroups/paul-test/providers/Microsoft.Web/sites/github-actions-cx",
+  "appService.deploySubpath": "."
+}
