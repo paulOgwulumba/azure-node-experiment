@@ -22,7 +22,7 @@ submitButton.addEventListener('click', (event) => {
     .then((response) => response.json())
     .then((data) => {
       const {name, password} = JSON.parse(data);
-      alert(name, password);
+      alert(`name: ${name}, password: ${password}`);
     })
     .catch((err) => {
       alert(err);
